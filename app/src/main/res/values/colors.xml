@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">@color/white</color>
+    <color name="purple_500">@color/white</color>
+    <color name="purple_700">@color/white</color>
+   <!-- <color name="purple_500">#4EA6ED</color>
+    <color name="purple_700">#65ACE4</color>-->
+    <!--<color name="purple_700">#FF3700B3</color>
+    <color name="purple_500">#F1606E</color>
+    <color name="purple_700">#F36D7A</color>-->
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+   <!-- <color name="colorPrimary">@color/white</color>
+    <color name="colorPrimaryDark">@color/white</color>
+    <color name="colorAccent">@color/white</color>-->
+
+        <color name="colorPrimary">#ff1414</color>
+    <color name="colorPrimaryDark">#d80f0f</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="gray">#ff888888</color>
+
+    <color name="main_activity_background_color">#000000</color>
+    <color name="link_color">#55AFF6</color>
+</resources>

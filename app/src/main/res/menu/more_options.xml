@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Updates"
+        android:id="@+id/Updates"/>
+    <item
+        android:title="Message"
+        android:id="@+id/Message"/>
+    <item
+        android:title="Request Channel"
+        android:id="@+id/requestChannel"/>
+    <item
+        android:title="Help"
+        android:id="@+id/Help"/>
+    <item
+        android:title="Settings"
+        android:id="@+id/settingsIcon"/>
+    <item
+        android:title="Contact Us"
+        android:id="@+id/ContactUs"/>
+    <item
+        android:title="About Us"
+        android:id="@+id/AboutUs"/>
+</menu>

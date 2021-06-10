@@ -1,0 +1,140 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">StudyTube JEE</string>
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+    <string name="search_title">Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!--Api related Strings-->
+    <string name="ApiKey">AIzaSyBURViMCgdBTr5FMB2yNOgNxv-4sM3V238</string>
+
+    <!-- Chapter No.-->
+    <string name="ch01"> 1.</string>
+    <string name="ch02"> 2.</string>
+    <string name="ch03"> 3.</string>
+    <string name="ch04"> 4.</string>
+    <string name="ch05"> 5.</string>
+    <string name="ch06"> 6.</string>
+    <string name="ch07"> 7.</string>
+    <string name="ch08"> 8.</string>
+    <string name="ch09"> 9.</string>
+    <string name="ch10"> 10.</string>
+    <string name="ch11"> 11.</string>
+    <string name="ch12"> 12.</string>
+    <string name="ch13"> 13.</string>
+    <string name="ch14"> 14.</string>
+    <string name="ch15"> 15.</string>
+    <string name="ch16"> 16.</string>
+
+    <!--Class 11th Physics Chapter Name-->
+    <string name="c11ch01p">Physical World</string>
+    <string name="c11ch02p">Units And Dimensions</string>
+    <string name="c11ch03p">Motion in A Straight Line</string>
+    <string name="c11ch04p">Motion in a Plane</string>
+    <string name="c11ch05p">Force And Laws of Motion</string>
+    <string name="c11ch06p">Work,Energy And Power</string>
+    <string name="c11ch07p">Rotational Motion</string>
+    <string name="c11ch08p">Gravitation</string>
+    <string name="c11ch09p">Mechanical Properties of Solid</string>
+    <string name="c11ch10p">Mechanical Properties of Fluids</string>
+    <string name="c11ch11p">Thermal Properties of matter</string>
+    <string name="c11ch12p">Thermodynamics</string>
+    <string name="c11ch13p">Kinetic Theory</string>
+    <string name="c11ch14p">Oscillations</string>
+    <string name="c11ch15p">Waves</string>
+
+    <!-- Class 11 chemistry chapter name-->
+    <string name="c11ch01c">Some Basic Concepts of Chemistry</string>
+    <string name="c11ch02c">Structure of Atom</string>
+    <string name="c11ch03c">Classification of Elements &amp; Periodicity in Properties</string>
+    <string name="c11ch04c">Chemical Bonding and Molecular Structure</string>
+    <string name="c11ch05c">States of Matter: Gases and Liquids</string>
+    <string name="c11ch06c">Thermodynamics</string>
+    <string name="c11ch07c">Equilibrium</string>
+    <string name="c11ch08c">Redox Reactions</string>
+    <string name="c11ch09c">Hydrogen</string>
+    <string name="c11ch10c">s-Block Elements</string>
+    <string name="c11ch11c">Some p-Block Elements</string>
+    <string name="c11ch12c">Organic Chemistry: Basic Principles &amp; Techniques</string>
+    <string name="c11ch13c">Hydrocarbons</string>
+    <string name="c11ch14c">Environmental Chemistry</string>
+
+   <!--Class 11 Maths Chapter Name-->
+    <string name="c11ch01m">Sets</string>
+    <string name="c11ch02m">Relations &amp; Functions</string>
+    <string name="c11ch03m">Trigonometric Functions</string>
+    <string name="c11ch04m">Principle of Mathematical Induction</string>
+    <string name="c11ch05m">Complex Numbers and Quadratic Equations</string>
+    <string name="c11ch06m">Linear Inequalities</string>
+    <string name="c11ch07m">Permutations and Combinations</string>
+    <string name="c11ch08m">Binomial Theorem</string>
+    <string name="c11ch09m">Sequence and Series</string>
+    <string name="c11ch10m">Straight Lines</string>
+    <string name="c11ch11m">Conic Sections</string>
+    <string name="c11ch12m">Introduction to Three–dimensional Geometry</string>
+    <string name="c11ch13m"> Limits and Derivatives</string>
+    <string name="c11ch14m">Mathematical Reasoning</string>
+    <string name="c11ch15m">Statistics</string>
+    <string name="c11ch16m"> Probability</string>
+
+    <!-- class 12 Physics Chapter Name -->
+    <string name="c12ch01p">Electric Charges and Fields</string>
+    <string name="c12ch02p">Electrostatic Potential and Capacitance</string>
+    <string name="c12ch03p">Current Electricity</string>
+    <string name="c12ch04p">Moving Charges and Magnetism</string>
+    <string name="c12ch05p">Magnetism and Matter</string>
+    <string name="c12ch06p">Electromagnetic Induction</string>
+    <string name="c12ch07p">Alternating Current</string>
+    <string name="c12ch08p">Electromagnetic Waves</string>
+    <string name="c12ch09p">Ray Optics and Optical Instruments</string>
+    <string name="c12ch10p">Wave Optics</string>
+    <string name="c12ch11p">Dual Nature of Radiation and Matter</string>
+    <string name="c12ch12p">Atoms</string>
+    <string name="c12ch13p">Nuclei</string>
+    <string name="c12ch14p">Semiconductor Electronics</string>
+    <string name="c12ch15p">Communication Systems</string>
+
+    <!--Class 12 Chemistry Chapter Name-->
+    <string name="c12ch01c">Solid State</string>
+    <string name="c12ch02c">Solutions</string>
+    <string name="c12ch03c">Electrochemistry</string>
+    <string name="c12ch04c">Chemical Kinetics</string>
+    <string name="c12ch05c">Surface Chemistry</string>
+    <string name="c12ch06c">General Principles and Processes of Isolation of Elements</string>
+    <string name="c12ch07c">p -Block Elements</string>
+    <string name="c12ch08c">d- and f-Block Elements</string>
+    <string name="c12ch09c">Coordination Compounds</string>
+    <string name="c12ch10c">Haloalkanes and Haloarenes</string>
+    <string name="c12ch11c">Alcohols, Phenols and Ethers</string>
+    <string name="c12ch12c">Aldehydes, Ketones and Carboxylic Acids</string>
+    <string name="c12ch13c">Amines</string>
+    <string name="c12ch14c">Biomolecules</string>
+    <string name="c12ch15c">Polymers</string>
+    <string name="c12ch16c">Chemistry in Everyday Life</string>
+
+    <!--Class 12 Maths Chapter Name-->
+    <string name="c12ch01m">Relations and Functions</string>
+    <string name="c12ch02m">Inverse Trigonometric Functions</string>
+    <string name="c12ch03m"> Matrices</string>
+    <string name="c12ch04m">Determinants</string>
+    <string name="c12ch05m">Continuity and Differentiability</string>
+    <string name="c12ch06m">Applications of Derivatives></string>
+    <string name="c12ch07m">Integrals</string>
+    <string name="c12ch08m">Applications of the Integrals</string>
+    <string name="c12ch09m">Differential Equations</string>
+    <string name="c12ch10m">Vectors</string>
+    <string name="c12ch11m">Three - dimensional Geometry</string>
+    <string name="c12ch12m">Linear Programming</string>
+    <string name="c12ch13m"> Probability</string>
+    <!-- Extra Strings -->
+    <string name="cant_find_video">Can\'t find your video? Search it in channel\'s playlist :-</string>
+
+</resources>
