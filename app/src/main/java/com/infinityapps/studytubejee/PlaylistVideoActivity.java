@@ -14,6 +14,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.infinityapps.studytubejee.Playlist.Videos;
 import com.infinityapps.studytubejee.Playlist.video_recycler_adapter;
 
+import org.imaginativeworld.oopsnointernet.callbacks.ConnectionCallback;
+import org.imaginativeworld.oopsnointernet.dialogs.signal.DialogPropertiesSignal;
+import org.imaginativeworld.oopsnointernet.dialogs.signal.NoInternetDialogSignal;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -64,6 +67,36 @@ public class PlaylistVideoActivity extends AppCompatActivity {
 
         mVideoAdapter.notifyDataSetChanged();
 
+        // No Internet Dialog: Signal
+        NoInternetDialogSignal.Builder builder = new NoInternetDialogSignal.Builder(
+                this,
+                getLifecycle()
+        );
+
+        DialogPropertiesSignal properties = builder.getDialogProperties();
+
+        properties.setConnectionCallback(new ConnectionCallback() { // Optional
+            @Override
+            public void hasActiveConnection(boolean hasActiveConnection) {
+                // ...
+            }
+        });
+
+        properties.setCancelable(false); // Optional
+        properties.setNoInternetConnectionTitle("No Internet"); // Optional
+        properties.setNoInternetConnectionMessage("Check your Internet connection and try again"); // Optional
+        properties.setShowInternetOnButtons(true); // Optional
+        properties.setPleaseTurnOnText("Please turn on"); // Optional
+        properties.setWifiOnButtonText("Wifi"); // Optional
+        properties.setMobileDataOnButtonText("Mobile data"); // Optional
+
+        properties.setOnAirplaneModeTitle("No Internet"); // Optional
+        properties.setOnAirplaneModeMessage("You have turned on the airplane mode."); // Optional
+        properties.setPleaseTurnOffText("Please turn off"); // Optional
+        properties.setAirplaneModeOffButtonText("Airplane mode"); // Optional
+        properties.setShowAirplaneModeOffButtons(true); // Optional
+
+        builder.build();
 
         String url = "https://youtube.googleapis.com/youtube/v3/playlists?part=snippet%2CcontentDetails&channelId=UCiGyWN6DEbnj2alu7iapuKQ&key=AIzaSyBURViMCgdBTr5FMB2yNOgNxv-4sM3V238";
     }

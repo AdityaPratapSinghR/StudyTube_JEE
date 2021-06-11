@@ -51,7 +51,7 @@ dependencies {
     compile files('libs/YouTubeAndroidPlayerApi.jar')
 
     // Picasso
-    implementation 'com.squareup.picasso:picasso:2.71828'
+   // implementation 'com.squareup.picasso:picasso:2.71828'
     //Youtube Player Library
   //  implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5'
     //Glide
