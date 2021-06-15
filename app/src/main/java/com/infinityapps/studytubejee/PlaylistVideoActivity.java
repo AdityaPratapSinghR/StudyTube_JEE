@@ -113,6 +113,7 @@ public class PlaylistVideoActivity extends AppCompatActivity {
             dialog = new ProgressDialog(PlaylistVideoActivity.this);
             dialog.setTitle("Please Wait");
             dialog.setMessage("Loading Video....");
+            dialog.setCanceledOnTouchOutside(false);
             dialog.show();
         }
     @Override
@@ -165,22 +166,6 @@ public class PlaylistVideoActivity extends AppCompatActivity {
                 }
            // String url = "https://youtube.googleapis.com/youtube/v3/playlists?part=snippet%2CcontentDetails&channelId=UCiGyWN6DEbnj2alu7iapuKQ&key=AIzaSyBURViMCgdBTr5FMB2yNOgNxv-4sM3V238&maxResults=50";
 
-          /*  String url = "https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=" + playlist_id + "&key=" + browserKey + "&maxResults=50";
-
-            String response = getUrlString(url);
-
-            JSONObject json = new JSONObject(response.toString());
-
-            JSONArray jsonArray = json.getJSONArray("items");
-            for (int i = 0; i < jsonArray.length(); i++) {
-                JSONObject jsonObject = jsonArray.getJSONObject(i);
-
-               // JSONObject video = jsonObject.getJSONObject("snippet").getJSONObject("contentDetails");
-                String title = jsonObject.getJSONObject("snippet").getString("title");
-                String id = video.getString("itemCount");
-                String thumbUrl = jsonObject.getJSONObject("snippet").getJSONObject("thumbnails").getJSONObject("default").getString("url");
-                displaylist = new Videos(title, thumbUrl ,id);
-                displaylistArray.add(displaylist);*/
             }
         }catch(IOException | JSONException e){
                 e.printStackTrace();

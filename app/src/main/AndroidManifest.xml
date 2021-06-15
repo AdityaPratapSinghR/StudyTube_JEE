@@ -24,20 +24,30 @@
             android:name=".WebViewActivity"
             android:hardwareAccelerated="true"
             android:label="@string/title_activity_web_view"
+            android:screenOrientation="sensorLandscape"
             android:theme="@style/Theme.Design.NoActionBar" />
 
         <activity android:name=".MainActivity"
-            android:hardwareAccelerated="true">
+            android:hardwareAccelerated="true"
+            android:configChanges="orientation|screenSize|uiMode"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PlaylistVideoActivity" />
-        <activity android:name=".ChapterHandler.ChapterActivity" />
+        <activity android:name=".PlaylistVideoActivity"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".ChapterHandler.ChapterActivity"
+            android:configChanges="orientation|screenSize"/>
         <activity android:name=".PlaylistActivity"
-            android:hardwareAccelerated="true"/>
+            android:hardwareAccelerated="true"
+            android:configChanges="orientation|screenSize"/>
+        <activity android:name=".DescriptionActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/WebTheme"
+            android:screenOrientation="sensorLandscape"/>
     </application>
 
 </manifest>

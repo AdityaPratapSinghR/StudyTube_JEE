@@ -136,5 +136,6 @@
     <string name="c12ch13m"> Probability</string>
     <!-- Extra Strings -->
     <string name="cant_find_video">Can\'t find your video? Search it in channel\'s playlist :-</string>
+    <string name="press_back_button_to_return">Press Back Button to Return</string>
 
 </resources>

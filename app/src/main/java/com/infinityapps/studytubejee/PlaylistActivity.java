@@ -9,6 +9,7 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -16,6 +17,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SearchView;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -192,6 +194,8 @@ public class PlaylistActivity extends AppCompatActivity {
             dialog = new ProgressDialog(PlaylistActivity.this);
             dialog.setTitle("Please Wait");
             dialog.setMessage("Loading Playlists.....");
+            dialog.setCanceledOnTouchOutside(false);
+            //dialog.setCancelable(false);
             dialog.show();
         }
         @Override
@@ -286,5 +290,10 @@ public class PlaylistActivity extends AppCompatActivity {
         }
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
     }
+}
 
